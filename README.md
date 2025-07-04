@@ -3,8 +3,18 @@
 # TRS-IO model 1
 
 This repo is a snapshot of https://github.com/apuder/TRS-IO at f2acde6.<br>
-That project is an amazing piece of hardware that provide new feature to my retro TRS-80 model 1<br>
-This is just notes for my path to get the v1.4 hardware build configured with the backported TRS-IO++ software that is all found on there site.<br>
+That project is an amazing piece of hardware/software that provide new feature to my retro TRS-80 model 1<br>
+- Network connection/ internet - TCP
+- Retrostore
+- SMB share 
+- SD card
+- FreHD emulation auto-boot on my unmodified M1
+- Upper 32k of memory
+- Virtual printer
+- HDMI color video / audio out
+- Realtime clock
+
+This is just notes for my path to get the v1.4 hardware build configured with the backported TRS-IO++ software that is all found on their site.<br>
 These are my notes and my help someone (or may not).<br>
 
 
