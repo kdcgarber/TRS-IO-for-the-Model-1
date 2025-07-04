@@ -3,7 +3,7 @@
 # TRS-IO model 1
 
 This repo is a snapshot of https://github.com/apuder/TRS-IO at f2acde6.<br>
-That project is an amazing piece of hardware/software that provide new feature to my retro TRS-80 model 1<br>
+That project is an amazing piece of hardware/software that provides new feature to my retro TRS-80 model 1<br>
 
 <table>
   <tr>
@@ -79,13 +79,13 @@ cd ~/esp/TRS-IO/src/esp/ <br>
 ### Copy sdkconfig.trs-io-m1 to sdkconfig.trs-io-m1-v14<br>
 cp sdkconfig.trs-io-m1 sdkconfig.trs-io-m1-v14<br>
 <br>
-### Then add to the bottom of the  sdkconfig.trs-io-m1-v14<br>
+### Then add to the bottom of the sdkconfig.trs-io-m1-v14<br>
 CONFIG_SPIRAM_SUPPORT=n<br>
 
 
 
 ### Added logging to the event handler   ~/esp/TRS-IO/src/esp/components/trs-io/http.cpp <br>
-This is not require, it just lets me validate memory available as the event handler is triggered showing web server logging.<br>
+This is not required, it just lets me validate memory available as the event handler is triggered showing web server logging.<br>
     ESP_LOGI(TAG, "Free heap: %u", esp_get_free_heap_size());<br>
 
 vim   ~/esp/TRS-IO/src/esp/components/trs-io/http.cpp <br>
@@ -145,7 +145,7 @@ cd ~/esp/TRS-IO/src/esp<br>
 idf.py fullclean<br>
 make BOARD=trs-io-m1-v14 build<br>
 
-The build show errors but if it completes, it should be good.<br>
+The build will show errors but if it completes, the the rest should be good.<br>
 At the bottom of its output it lists the command to run and the port needs to be changed to match the correct port<br>
 
 Sometimes doing the flash fails. If it does, just try it again and it will load<br><br>
@@ -190,7 +190,7 @@ openFPGALoader -b tangnano9k -f TRS-IO.fs
 ## All done with the Install
 
 After the install is complete, follow the notes on the TRS-IO site to bring up the trs-io.local access point and start the configuration.<br>
-The site has the ROM boot loader for the FreHD to go on the SD card or the smb (windows share or for me SAMBA share on my linux server).<br>
+The site has the ROM boot loader for the FreHD to go on the SD card or the smb (windows share or for me SAMBA share on my Linux server).<br>
 
 
 
