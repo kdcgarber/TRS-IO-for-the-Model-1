@@ -7,10 +7,6 @@ That project is an amazing piece of hardware/software that provide new feature t
 
 <table>
   <tr>
-    <th>Features</th>
-    <th>Web Page Example</th>
-  </tr>
-  <tr>
     <td>
       <ul>
         <li>Network connection / internet - TCP</li>
@@ -29,13 +25,6 @@ That project is an amazing piece of hardware/software that provide new feature t
     </td>
   </tr>
 </table>
-
-
-<p>
-  <img src="https://github.com/kdcgarber/TRS-IO-for-the-Model-1/blob/main/images/WebPage.gif" alt="Feature Image" width="150" style="vertical-align: middle; margin-right: 10px;">
-  <strong>Features:</strong> Network connection / internet - TCP, Retrostore, SMB share, SD card, FreHD emulation...
-</p>
-
 
 
 
