@@ -8,7 +8,7 @@ That project is an amazing piece of hardware/software that provide new feature t
 <table>
   <tr>
     <th>Features</th>
-    <th>Web Page Example/th>
+    <th>Web Page Example</th>
   </tr>
   <tr>
     <td>
@@ -32,6 +32,23 @@ That project is an amazing piece of hardware/software that provide new feature t
 
 
 
+<div style="display: flex; align-items: center;">
+  <img src="https://github.com/kdcgarber/TRS-IO-for-the-Model-1/blob/main/images/WebPage.gif" alt="Feature Image width="300" height="300" style="margin-right: 20px;">
+  <img src="image.jpg" alt="Feature Image" width="150" style="margin-right: 20px;">
+  <div>
+    <ul>
+      <li>Network connection / internet - TCP</li>
+      <li>Retrostore</li>
+      <li>SMB share</li>
+      <li>SD card</li>
+      <li>FreHD emulation auto-boot on my unmodified M1</li>
+      <li>Upper 32k of memory</li>
+      <li>Virtual printer</li>
+      <li>HDMI color video / audio out</li>
+      <li>Realtime clock</li>
+    </ul>
+  </div>
+</div>
 
 
 This is just notes for my path to get the v1.4 hardware build configured with the backported TRS-IO++ software that is all found on their site.<br>
