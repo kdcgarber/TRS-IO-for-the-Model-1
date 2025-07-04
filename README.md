@@ -21,7 +21,7 @@ That project is an amazing piece of hardware/software that provide new feature t
       </ul>
     </td>
     <td>
-      trs-io.local = 192.168.4.1
+      trs-io.local (Access Point 192.168.4.1)
       <img src="https://github.com/kdcgarber/TRS-IO-for-the-Model-1/blob/main/images/WebPage.gif" width="300" height="300">
     </td>
   </tr>
@@ -183,6 +183,11 @@ openFPGALoader -b tangnano9k -f TRS-IO.fs
 		Done
 		CRC check: Success
 		
+
+
+<br>
+After the install is complete, follow the notes on the TRS-IO site to bring up the trs-io.local access point and start the configuration.<br>
+The site has the ROM boot loader for the FreHD to go on the SD card or the smb (windows share or for me SAMBA share on my linux server).<br>
 
 
 
