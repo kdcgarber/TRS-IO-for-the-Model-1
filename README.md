@@ -14,26 +14,44 @@ For the ESP-WROOM-32 esp controller - https://www.amazon.com/dp/B0B764963C
 As a non-root account
 
 ##Prep - installing required components
+
 sudo apt upgrade
+
 ##On ubuntu 24.04, install the required apps
+
 ##Packages for Espressif
+
 sudo apt-get install git wget flex bison gperf python3 python3-pip python3-setuptools cmake ninja-build ccache libffi-dev libssl-dev dfu-util libusb-1.0-0 python3-virtualenv
+
 ## Packages for TRS-IO
+
 sudo apt-get install z80asm sdcc sdcc-libraries
+
 ## Some fixes for linking libraries that are needed by TRS-IO
+
 sudo mkdir -p /lib/z80/
+
 sudo ln -s /usr/share/sdcc/lib/z80/z80.lib /lib/z80/z80.lib
+
 ## Python3 as default:
+
 sudo apt-get install python3 python3-pip python3-setuptools
+
 sudo ln -s /usr/bin/python3 /usr/bin/python
 
 
 ## Install ESP-IDF
+
 cd ~/
+
 mkdir esp
+
 cd esp
+
 git clone -b v4.4.7 --recurse-submodules https://github.com/espressif/esp-idf.git
+
 cd ~/esp/esp-idf
+
 ./install.sh esp32
 
 
@@ -81,7 +99,7 @@ It should look like this
 				              message->uri.len,
 				              message->uri.ptr);
 				
-				    ESP_LOGI(TAG, "Free heap: %u", esp_get_free_heap_size());
+				      ESP_LOGI(TAG, "Free heap: %u", esp_get_free_heap_size());
 				
 				      char* response = NULL; // Always allocated.
 				      const char* content_type = "text/html"; // Never allocated
