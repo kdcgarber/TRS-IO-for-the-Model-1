@@ -14,8 +14,10 @@ That project is an amazing piece of hardware/software that provide new feature t
 - HDMI color video / audio out
 - Realtime clock
 
+
+<img src="https://github.com/kdcgarber/TRS-IO-for-the-Model-1/blob/main/images/WebPage.gif" width="200" height="200">
 This is just notes for my path to get the v1.4 hardware build configured with the backported TRS-IO++ software that is all found on their site.<br>
-These are my notes and my help someone (or may not).<br>
+These are my notes to help me build another in the future and may help someone (or may not).<br>
 
 
 ------  Notes  ------------
