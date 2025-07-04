@@ -127,10 +127,10 @@ Sometimes doing the flash fails. If it does, just try it again and it will load<
 
 
 ## To Flash the FPGA
-The build of the code came from matt boytim  --  mayoytim
-The FPGA file is TRS-IO.fs
 
-cd  ~/esp/build
+The FPGA file is TRS-IO.fs<br>
+
+cd  ~/esp/build<br>
 openFPGALoader -b tangnano9k -f TRS-IO.fs
 
 		EXAMPLE:
