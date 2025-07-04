@@ -8,20 +8,20 @@ That project is an amazing piece of hardware/software that provide new feature t
 <table>
   <tr>
     <th>Features</th>
-    <th>Image</th>
+    <th>Web Page Example/th>
   </tr>
   <tr>
     <td>
       <ul>
-        <li>- Network connection / internet - TCP</li>
-        <li>- Retrostore</li>
-        <li>- SMB share</li>
-        <li>- SD card</li>
-        <li>- FreHD emulation auto-boot on my unmodified M1</li>
-        <li>- Upper 32k of memory</li>
-        <li>- Virtual printer</li>
-        <li>- HDMI color video / audio out</li>
-        <li>- Realtime clock</li>
+        <li>Network connection / internet - TCP</li>
+        <li>Retrostore</li>
+        <li>SMB share</li>
+        <li>SD card</li>
+        <li>FreHD emulation auto-boot on my unmodified M1</li>
+        <li>Upper 32k of memory</li>
+        <li>Virtual printer</li>
+        <li>HDMI color video / audio out</li>
+        <li>Realtime clock</li>
       </ul>
     </td>
     <td>
