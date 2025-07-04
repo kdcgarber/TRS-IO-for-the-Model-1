@@ -104,19 +104,20 @@ It should look like this<br>
 
 
 
-
-### Then lowered the max file value to save mem.<br>
+<br>
+### Then lowered the max file value to save mem for the SD card usage.<br>
 
 vim components/trs-fs/posix.cpp<br>
  .max_files = 2,  // changed from 5<br>
 
-<br><br>
+<br>
 
 			
 ### Then I change the  led to match the colors for the current v1.4 not ++ since mine are RGB not RBG<br>
 
 
-At the top make these pin changes     led color change in ++ so need to change code to match 1.4 pcb<br>
+At the top make these pin changes led color change in ++ so need to change code to match 1.4 pcb<br>
+This is not needed if you buy leds that are RBG not what I bought.
 vim ~/esp/TRS-IO/src/esp/main/led.cpp<br>
 #ifdef CONFIG_TRS_IO_MODEL_1<br>
 #define LED_RED 5<br>
@@ -130,10 +131,11 @@ cd ~/esp/TRS-IO/src/esp<br>
 idf.py fullclean<br>
 make BOARD=trs-io-m1-v14 build<br>
 
+The build show errors but if it completes, it should be good.<br>
+At the bottom of its output it lists the command to run and the port needs to be changed to match the correct port<br>
 
-Sometimes doing the flash fails. If it does, just try it again and it will load<br>
+Sometimes doing the flash fails. If it does, just try it again and it will load<br><br>
 ~/esp/esp-idf/components/esptool_py/esptool/esptool.py -p /dev/ttyUSB0  -b 460800 --before default_reset --after hard_reset --chip esp32  write_flash --flash_mode dio --flash_size detect --flash_freq 40m 0x1000 build/bootloader/bootloader.bin 0x8000 build/partition_table/partition-table.bin 0x10000 build/trs-io.bin 0x190000 build/html.bin<br>
-
 
 
 <br><br><br>
