@@ -20,6 +20,9 @@ This is just notes for my path to get the v1.4 hardware build configured with th
 These are my notes to help me build another in the future and may help someone (or may not).<br>
 <br>
 
+
+These are not notes on the pcb build, just the code deploy to the TRS-IO v1.4<br>
+
 ## Notes
 
 I used the ESP-WROOM-32 esp controller - https://www.amazon.com/dp/B0B764963C<br>
