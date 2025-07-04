@@ -2,16 +2,20 @@
 
 # TRS-IO model 1
 
-
+This repo is a snapshot of https://github.com/apuder/TRS-IO at f2acde6.<br>
+That project is an amazing piece of hardware that provide new feature to my retro TRS-80 model 1<br>
+This is just notes for my path to get the v1.4 hardware build configured with the backported TRS-IO++ software that is all found on there site.<br>
+These are my notes and my help someone (or may not).<br>
 
 
 ------  Notes  ------------
 
-For the ESP-WROOM-32 esp controller - https://www.amazon.com/dp/B0B764963C
+I used the ESP-WROOM-32 esp controller - https://www.amazon.com/dp/B0B764963C<br>
+And I used the Tang Nano 9K FPGA - https://www.aliexpress.us/item/3256804089255675.html<br>
 
 
-
-As a non-root account
+Prep:<br>
+As a non-root account<br>
 
 ##Prep - installing required components<br>
 sudo apt upgrade<br>
@@ -61,30 +65,30 @@ This is not require, it just lets you validate memory available as the webserver
 vim   ~/esp/TRS-IO/src/esp/components/trs-io/http.cpp <br>
 It should look like this<br>
 
-				static void mongoose_event_handler(struct mg_connection *c,
-				                                   int event, void *eventData, void *fn_data)
-				{
-				  static bool reboot = false;
-				
-				  // Return if the web debugger is handling the request.
-				  if (trx_handle_http_request(c, event, eventData, fn_data)) {
-				    return;
-				  }
-				
-				  switch (event) {
-				  case MG_EV_HTTP_MSG:
-				    {
-				      struct mg_http_message* message = (struct mg_http_message*) eventData;
-				      ESP_LOGI(TAG, "request %.*s %.*s",
-				              message->method.len,
-				              message->method.ptr,
-				              message->uri.len,
-				              message->uri.ptr);
-				
-				      ESP_LOGI(TAG, "Free heap: %u", esp_get_free_heap_size());
-				
-				      char* response = NULL; // Always allocated.
-				      const char* content_type = "text/html"; // Never allocated
+	static void mongoose_event_handler(struct mg_connection *c,
+					   int event, void *eventData, void *fn_data)
+	{
+	  static bool reboot = false;
+
+	  // Return if the web debugger is handling the request.
+	  if (trx_handle_http_request(c, event, eventData, fn_data)) {
+	    return;
+	  }
+
+	  switch (event) {
+	  case MG_EV_HTTP_MSG:
+	    {
+	      struct mg_http_message* message = (struct mg_http_message*) eventData;
+	      ESP_LOGI(TAG, "request %.*s %.*s",
+		      message->method.len,
+		      message->method.ptr,
+		      message->uri.len,
+		      message->uri.ptr);
+
+	      ESP_LOGI(TAG, "Free heap: %u", esp_get_free_heap_size());
+
+	      char* response = NULL; // Always allocated.
+	      const char* content_type = "text/html"; // Never allocated
 
 
 
