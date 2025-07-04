@@ -18,16 +18,15 @@ That project is an amazing piece of hardware/software that provide new feature t
 <img src="https://github.com/kdcgarber/TRS-IO-for-the-Model-1/blob/main/images/WebPage.gif" width="300" height="300">
 This is just notes for my path to get the v1.4 hardware build configured with the backported TRS-IO++ software that is all found on their site.<br>
 These are my notes to help me build another in the future and may help someone (or may not).<br>
+<br>
 
-
-------  Notes  ------------
+# ------  Notes  ------------
 
 I used the ESP-WROOM-32 esp controller - https://www.amazon.com/dp/B0B764963C<br>
 And I used the Tang Nano 9K FPGA - https://www.aliexpress.us/item/3256804089255675.html<br>
 
 
-Prep:<br>
-As a non-root account<br>
+I did this install on my OrangePi-zero-2w running Ubuntu as a non-root account<br>
 
 ### Prep - installing required components<br>
 sudo apt upgrade<br>
