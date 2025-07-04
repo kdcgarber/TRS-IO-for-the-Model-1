@@ -62,8 +62,6 @@ cd ~/esp<br>
 git clone -b master --recurse-submodules https://github.com/apuder/TRS-IO.git <br>
 cd ~/esp/TRS-IO/src/esp/ <br>
 
-
-
 ### Copy sdkconfig.trs-io-m1 to sdkconfig.trs-io-m1-v14<br>
 cp sdkconfig.trs-io-m1 sdkconfig.trs-io-m1-v14<br>
 <br>
@@ -73,7 +71,7 @@ CONFIG_SPIRAM_SUPPORT=n<br>
 
 
 ### Added logging to the event handler   ~/esp/TRS-IO/src/esp/components/trs-io/http.cpp <br>
-This is not require, it just lets you validate memory available as the webserver refreshes.<br>
+This is not require, it just lets me validate memory available as the event handler is triggered showing web server logging.<br>
     ESP_LOGI(TAG, "Free heap: %u", esp_get_free_heap_size());<br>
 
 vim   ~/esp/TRS-IO/src/esp/components/trs-io/http.cpp <br>
