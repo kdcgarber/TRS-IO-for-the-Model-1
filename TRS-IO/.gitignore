@@ -1,0 +1,9 @@
+*~
+*.o
+.DS_Store
+node_modules
+.idea
+*.iml
+tags
+.vscode
+.wslrun
