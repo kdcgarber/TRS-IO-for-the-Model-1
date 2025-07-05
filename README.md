@@ -35,7 +35,7 @@ These are my notes to help me build another in the future and could possibly hel
 <br>
 
 
-These are not notes on the pcb build, just the code deploy process for the TRS-IO v1.4<br>
+These are not notes on the pcb build, just the code deploy process for the TRS-IO v1.4.<br>
 
 ## Notes
 
@@ -118,6 +118,7 @@ It should look like this<br>
 
 
 <br>
+
 ### Then lowered the max file value to save mem for the SD card usage.<br>
 
 vim components/trs-fs/posix.cpp<br>
