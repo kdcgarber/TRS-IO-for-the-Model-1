@@ -2,7 +2,8 @@
 
 # TRS-IO model 1
 
-This repo is a snapshot of https://github.com/apuder/TRS-IO commit f2acde6.<br>
+
+This repo is based on a snapshot of https://github.com/apuder/TRS-IO commit f2acde6.<br>
 That repo is an amazing piece of hardware/software that provides new feature to my retro TRS-80 model 1<br>
 
 <table>
@@ -42,7 +43,7 @@ I used the ESP-WROOM-32 esp controller (no PSRAM) - https://www.amazon.com/dp/B0
 And I used the Tang Nano 9K FPGA - https://www.aliexpress.us/item/3256804089255675.html<br>
 
 
-I did this install on my OrangePi-Zero-2w running Ubuntu 24.04, as a non-root account<br>
+I did this install/build/deploy on my OrangePi-Zero-2w running Ubuntu 24.04, as a non-root account<br>
 
 ### Prep - installing required components<br>
 &nbsp;&nbsp;&nbsp;&nbsp;sudo apt upgrade<br>
