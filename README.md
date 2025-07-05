@@ -43,7 +43,7 @@ I used the ESP-WROOM-32 esp controller - https://www.amazon.com/dp/B0B764963C<br
 And I used the Tang Nano 9K FPGA - https://www.aliexpress.us/item/3256804089255675.html<br>
 
 
-I did this install on my OrangePi-zero-2w running Ubuntu as a non-root account<br>
+I did this install on my OrangePi-Zero-2w running Ubuntu as a non-root account<br>
 
 ### Prep - installing required components<br>
 sudo apt upgrade<br>
