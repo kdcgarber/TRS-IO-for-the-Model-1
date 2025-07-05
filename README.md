@@ -31,7 +31,7 @@ That repo is an amazing piece of hardware/software that provides new feature to 
 
 These are just notes for my path to get the v1.4 hardware build configured with the backported TRS-IO++ software that is all found on their site.<br>
 Their site is the safe source and is what should be used; mine is just my notes and everything that worked for me.
-These are my notes to help me build another in the future and could help someone else  (or maybe not).<br>
+These are my notes to help me build another in the future and could possibly help someone else as well.<br>
 <br>
 
 
