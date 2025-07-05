@@ -3,7 +3,7 @@
 # TRS-IO model 1
 
 This repo is a snapshot of https://github.com/apuder/TRS-IO at f2acde6.<br>
-That project is an amazing piece of hardware/software that provides new feature to my retro TRS-80 model 1<br>
+That repo is an amazing piece of hardware/software that provides new feature to my retro TRS-80 model 1<br>
 
 <table>
   <tr>
@@ -29,8 +29,8 @@ That project is an amazing piece of hardware/software that provides new feature 
 
 
 
-This is just notes for my path to get the v1.4 hardware build configured with the backported TRS-IO++ software that is all found on their site.<br>
-Their site is the safe source and is what should be used, mine is just my notes and everything that worked for me.
+These are just notes for my path to get the v1.4 hardware build configured with the backported TRS-IO++ software that is all found on their site.<br>
+Their site is the safe source and is what should be used; mine is just my notes and everything that worked for me.
 These are my notes to help me build another in the future and could help someone else  (or maybe not).<br>
 <br>
 
