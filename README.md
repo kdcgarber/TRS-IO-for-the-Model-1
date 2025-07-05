@@ -119,7 +119,7 @@ It should look like this<br>
 
 <br>
 
-### Then lowered the max file value to save mem for the SD card usage.<br>
+### Then lowered the max_files value to save memory for the SD card usage.<br>
 
 vim components/trs-fs/posix.cpp<br>
  .max_files = 3,  // 2 works also -- changed from 5<br>
@@ -129,7 +129,7 @@ vim components/trs-fs/posix.cpp<br>
 			
 ### Then I changed the LED GPIO values to match the colors for the current v1.4 PCB since mine are RGB, not RBG<br>
 
-This is not needed if you buy LEDs that are RBG, instead of what I bought.
+This is not needed if you buy LEDs that are RBG, instead of what I bought.<vr>
 vim ~/esp/TRS-IO/src/esp/main/led.cpp<br>
 #ifdef CONFIG_TRS_IO_MODEL_1<br>
 #define LED_RED 5<br>
@@ -138,7 +138,7 @@ vim ~/esp/TRS-IO/src/esp/main/led.cpp<br>
 <br>
 
 
-#Build<br>
+# Build<br>
 cd ~/esp/TRS-IO/src/esp<br>
 idf.py fullclean<br>
 make BOARD=trs-io-m1-v14 build<br>
