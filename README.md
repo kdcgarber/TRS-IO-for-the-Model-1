@@ -35,7 +35,7 @@ These are my notes to help me build another in the future and could possibly hel
 <br>
 
 
-These are not notes on the pcb build, just the code deploy to the TRS-IO v1.4<br>
+These are not notes on the pcb build, just the code deploy process for the TRS-IO v1.4<br>
 
 ## Notes
 
