@@ -38,7 +38,7 @@ These are not notes on the pcb build, just the code deploy process for the TRS-I
 
 ## Notes
 
-I used the ESP-WROOM-32 esp controller - https://www.amazon.com/dp/B0B764963C<br>
+I used the ESP-WROOM-32 esp controller (no PSRAM) - https://www.amazon.com/dp/B0B764963C<br>
 And I used the Tang Nano 9K FPGA - https://www.aliexpress.us/item/3256804089255675.html<br>
 
 
