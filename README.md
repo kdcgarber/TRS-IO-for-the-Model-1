@@ -190,7 +190,7 @@ openFPGALoader -b tangnano9k -f TRS-IO.fs
 After the install is complete, follow the notes on the TRS-IO site to bring up the trs-io.local access point and start the configuration.<br>
 The site has the ROM boot loader for the FreHD to go on the SD card or the smb (windows share or for me SAMBA share on my Linux server).<br>
 
-
+<br><br><br><br>
 
 ## Other notes
 
