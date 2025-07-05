@@ -122,7 +122,7 @@ It should look like this<br>
 ### Then lowered the max file value to save mem for the SD card usage.<br>
 
 vim components/trs-fs/posix.cpp<br>
- .max_files =3,  // changed from 5<br>
+ .max_files = 3,  // 2 works also -- changed from 5<br>
 
 <br>
 
