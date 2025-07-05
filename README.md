@@ -45,18 +45,20 @@ And I used the Tang Nano 9K FPGA - https://www.aliexpress.us/item/32568040892556
 I did this install on my OrangePi-Zero-2w running Ubuntu 24.04, as a non-root account<br>
 
 ### Prep - installing required components<br>
-sudo apt upgrade<br>
-### Packages for Espressif<br>
-sudo apt-get install git wget flex bison gperf python3 python3-pip python3-setuptools cmake ninja-build ccache libffi-dev libssl-dev dfu-util libusb-1.0-0 python3-virtualenv<br>
-###  Packages for TRS-IO<br>
-sudo apt-get install z80asm sdcc sdcc-libraries<br>
-###  Some fixes for linking libraries that are needed by TRS-IO<br>
-sudo mkdir -p /lib/z80/<br>
-sudo ln -s /usr/share/sdcc/lib/z80/z80.lib /lib/z80/z80.lib<br>
-###  Python3 as default:<br>
-sudo apt-get install python3 python3-pip python3-setuptools<br>
-sudo ln -s /usr/bin/python3 /usr/bin/python<br>
+<div style="margin-left: 20px;">
+	sudo apt upgrade<br>
+	### Packages for Espressif<br>
+	sudo apt-get install git wget flex bison gperf python3 python3-pip python3-setuptools cmake ninja-build ccache libffi-dev libssl-dev dfu-util libusb-1.0-0 python3-virtualenv<br>
+	###  Packages for TRS-IO<br>
+	sudo apt-get install z80asm sdcc sdcc-libraries<br>
+	###  Some fixes for linking libraries that are needed by TRS-IO<br>
+	sudo mkdir -p /lib/z80/<br>
+	sudo ln -s /usr/share/sdcc/lib/z80/z80.lib /lib/z80/z80.lib<br>
+	###  Python3 as default:<br>
+	sudo apt-get install python3 python3-pip python3-setuptools<br>
+	sudo ln -s /usr/bin/python3 /usr/bin/python<br>
 <br>
+</div>
 
 ###  Install ESP-IDF<br>
 cd ~/<br>
