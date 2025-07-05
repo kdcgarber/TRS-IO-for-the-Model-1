@@ -42,11 +42,10 @@ I used the ESP-WROOM-32 esp controller - https://www.amazon.com/dp/B0B764963C<br
 And I used the Tang Nano 9K FPGA - https://www.aliexpress.us/item/3256804089255675.html<br>
 
 
-I did this install on my OrangePi-Zero-2w running Ubuntu as a non-root account<br>
+I did this install on my OrangePi-Zero-2w running Ubuntu 24.04, as a non-root account<br>
 
 ### Prep - installing required components<br>
 sudo apt upgrade<br>
-### On ubuntu 24.04, install the required apps<br>
 ### Packages for Espressif<br>
 sudo apt-get install git wget flex bison gperf python3 python3-pip python3-setuptools cmake ninja-build ccache libffi-dev libssl-dev dfu-util libusb-1.0-0 python3-virtualenv<br>
 ###  Packages for TRS-IO<br>
