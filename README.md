@@ -2,7 +2,7 @@
 
 # TRS-IO model 1
 
-This repo is a snapshot of https://github.com/apuder/TRS-IO at f2acde6.<br>
+This repo is a snapshot of https://github.com/apuder/TRS-IO commit f2acde6.<br>
 That repo is an amazing piece of hardware/software that provides new feature to my retro TRS-80 model 1<br>
 
 <table>
