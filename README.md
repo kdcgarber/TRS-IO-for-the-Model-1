@@ -195,8 +195,8 @@ The site has the ROM boot loader for the FreHD to go on the SD card or the smb (
 ## Other notes
 
 ### FPGA LED values
-wire esp_status_esp_ready   = esp_status[0];
-wire esp_status_wifi_up     = esp_status[1];
-wire esp_status_smb_mounted = esp_status[2];
-wire esp_status_sd_mounted  = esp_status[3];
+wire esp_status_esp_ready   = esp_status[0];<br>
+wire esp_status_wifi_up     = esp_status[1];<br>
+wire esp_status_smb_mounted = esp_status[2];<br>
+wire esp_status_sd_mounted  = esp_status[3];<br>
 
