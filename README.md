@@ -85,7 +85,7 @@ CONFIG_SPIRAM_SUPPORT=n<br>
 
 
 ### Added logging to the event handler   ~/esp/TRS-IO/src/esp/components/trs-io/http.cpp <br>
-This is not required, it just lets me validate memory available as the event handler is triggered showing web server logging.<br>
+This is not required, I add additional logging just lets me validate memory available as the event handler is triggered at the time of the showing of web server events.<br>
     ESP_LOGI(TAG, "Free heap: %u", esp_get_free_heap_size());<br>
 
 vim   ~/esp/TRS-IO/src/esp/components/trs-io/http.cpp <br>
@@ -127,7 +127,7 @@ vim components/trs-fs/posix.cpp<br>
 <br>
 
 			
-### Then I change the  led to match the colors for the current v1.4 not ++ since mine are RGB not RBG<br>
+### Then I changed the LED GPIO values to match the colors for the current v1.4 PCB not the ++, since mine are RGB, not RBG<br>
 
 
 At the top make these pin changes led color change in ++ so need to change code to match 1.4 pcb<br>
