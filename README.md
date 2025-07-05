@@ -127,7 +127,7 @@ vim components/trs-fs/posix.cpp<br>
 <br>
 
 			
-### Then I changed the LED GPIO values to match the colors for the current v1.4 PCB, since mine are RGB, not RBG<br>
+### Then I changed the LED GPIO values to match the colors for the current v1.4 PCB since mine are RGB, not RBG<br>
 
 
 At the top make these pin changes led color change in ++ so need to change code to match 1.4 pcb<br>
