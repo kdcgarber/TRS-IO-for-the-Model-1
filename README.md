@@ -144,9 +144,9 @@ idf.py fullclean<br>
 make BOARD=trs-io-m1-v14 build<br>
 
 The build will show errors but if it completes, the the rest should be good.<br>
-At the bottom of its output it lists the command to run and the port needs to be changed to match the correct port<br>
+At the bottom of its output, it lists the command to run. The port needs to be changed to match the correct port.<br>
 
-Sometimes doing the flash fails. If it does, just try it again and it will load<br><br>
+Sometimes doing the flash fails. If it does, just try it again and it will load.<br><br>
 ~/esp/esp-idf/components/esptool_py/esptool/esptool.py -p /dev/ttyUSB0  -b 460800 --before default_reset --after hard_reset --chip esp32  write_flash --flash_mode dio --flash_size detect --flash_freq 40m 0x1000 build/bootloader/bootloader.bin 0x8000 build/partition_table/partition-table.bin 0x10000 build/trs-io.bin 0x190000 build/html.bin<br>
 
 
