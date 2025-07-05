@@ -21,7 +21,6 @@ That repo is an amazing piece of hardware/software that provides new feature to 
       </ul>
     </td>
     <td>
-      trs-io.local (Access Point 192.168.4.1)
       <img src="https://github.com/kdcgarber/TRS-IO-for-the-Model-1/blob/main/images/WebPage.gif" width="300" height="300">
     </td>
   </tr>
