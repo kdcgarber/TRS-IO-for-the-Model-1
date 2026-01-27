@@ -1,0 +1,15 @@
+[submodule "src/esp/components/libsmb2"]
+	path = src/esp/components/libsmb2
+	url = https://github.com/sahlberg/libsmb2.git
+[submodule "src/trs/TRS-LIB"]
+	path = src/trs/TRS-LIB
+	url = https://github.com/apuder/TRS-LIB.git
+[submodule "src/esp/components/retrostore-c-sdk"]
+	path = src/esp/components/retrostore-c-sdk
+	url = https://github.com/shaeberling/retrostore-c-sdk.git
+[submodule "src/esp/components/FabGL"]
+	path = src/esp/components/FabGL
+	url = https://github.com/fdivitto/FabGL.git
+[submodule "src/esp/components/TRS-LIB"]
+	path = src/esp/components/TRS-LIB
+	url = https://github.com/apuder/TRS-LIB.git
